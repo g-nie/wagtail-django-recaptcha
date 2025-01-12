@@ -1,16 +1,14 @@
-.. image:: https://travis-ci.org/springload/wagtail-django-recaptcha.svg?branch=master
-   :target: https://travis-ci.org/springload/wagtail-django-recaptcha
 .. image:: https://img.shields.io/pypi/v/wagtail-django-recaptcha.svg
    :target: https://pypi.python.org/pypi/wagtail-django-recaptcha
-.. image:: https://codeclimate.com/github/springload/wagtail-django-recaptcha/badges/gpa.svg
-   :target: https://codeclimate.com/github/springload/wagtail-django-recaptcha
-.. image:: https://coveralls.io/repos/github/springload/wagtail-django-recaptcha/badge.svg?branch=master
-   :target: https://coveralls.io/github/springload/wagtail-django-recaptcha?branch=master
+.. image:: https://codeclimate.com/github/wagtail-nest/wagtail-django-recaptcha/badges/gpa.svg
+   :target: https://codeclimate.com/github/wagtail-nest/wagtail-django-recaptcha
+.. image:: https://coveralls.io/repos/github/wagtail-nest/wagtail-django-recaptcha/badge.svg?branch=main
+   :target: https://coveralls.io/github/wagtail-nest/wagtail-django-recaptcha?branch=main
 
 Wagtail ReCaptcha
 =================
 
-    Wagtail forms with a ReCaptcha form field/widget integration app. Wagtail ReCaptcha provides an easy way to integrate the `django-recaptcha <https://github.com/praekelt/django-recaptcha>`_ field when using the Wagtail formbuilder.
+    Wagtail forms with a ReCaptcha form field/widget integration app. Wagtail ReCaptcha provides an easy way to integrate the `django-recaptcha <https://github.com/django-recaptcha/django-recaptcha>`_ field when using the Wagtail formbuilder.
 
 Check out `Awesome Wagtail <https://github.com/springload/awesome-wagtail>`_ for more awesome packages and resources from the Wagtail community.
 
@@ -21,7 +19,7 @@ Installation
 
 #. Add ``wagtailcaptcha`` to your ``INSTALLED_APPS`` setting.
 
-#. Config django-recaptcha as explained in `here <https://github.com/praekelt/django-recaptcha>`_.
+#. Config django-recaptcha as explained in `here <https://github.com/django-recaptcha/django-recaptcha>`_.
 
 
 Usage
@@ -100,7 +98,7 @@ Installation
 
 .. code:: sh
 
-    git clone git@github.com:springload/wagtail-django-recaptcha.git
+    git clone git@github.com:wagtail-nest/wagtail-django-recaptcha.git
     cd wagtail-django-recaptcha/
     virtualenv .venv
     source ./.venv/bin/activate
@@ -123,7 +121,7 @@ Releases
 *  Done!
 
 .. _Semantic Versioning: http://semver.org/spec/v2.0.0.html
-.. _changelog: https://github.com/springload/wagtail-django-recaptcha/blob/master/CHANGELOG.rst
+.. _changelog: https://github.com/wagtail-nest/wagtail-django-recaptcha/blob/main/CHANGELOG.rst
 
 Acknowledgements
 ----------------

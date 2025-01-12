@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2.2.0 (XXXX-XX-XX)
+------------------
+
+#. The project is now maintained by the Wagtail Nest community.
+
 2.1.1 (2024-01-26)
 ------------------
 #. Added tests for Wagtail 5.2
