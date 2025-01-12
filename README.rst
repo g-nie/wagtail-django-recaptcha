@@ -124,3 +124,8 @@ Releases
 
 .. _Semantic Versioning: http://semver.org/spec/v2.0.0.html
 .. _changelog: https://github.com/springload/wagtail-django-recaptcha/blob/master/CHANGELOG.rst
+
+Acknowledgements
+----------------
+
+Wagtail ReCaptcha was originally created by `Springload <https://springload.co.nz/>`_. They kindly transferred the project to the Wagtail Nest community in December 2024.
