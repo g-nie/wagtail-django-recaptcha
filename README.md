@@ -101,7 +101,7 @@ Use `make help` to get a list of commands.
 ### Releases
 
 - Make a new branch for the release of the new version.
-- Update the [CHANGELOG](https://github.com/wagtail-nest/wagtail-django-recaptcha/blob/main/CHANGELOG.rst).
+- Update the [CHANGELOG](https://github.com/wagtail-nest/wagtail-django-recaptcha/blob/main/CHANGELOG.md).
 - Update the version number in `wagtailcaptcha/__init__.py`, following
   semver.
 - Make a PR and squash merge it.

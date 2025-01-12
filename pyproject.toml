@@ -48,6 +48,10 @@ testing = [
 ]
 docs = []
 
+[project.urls]
+Source = "https://github.com/wagtail-nest/wagtail-django-recaptcha"
+Changelog = "https://github.com/wagtail-nest/wagtail-django-recaptcha/blob/main/CHANGELOG.md"
+
 [tool.ruff]
 target-version = "py39"  # minimum target version
 
