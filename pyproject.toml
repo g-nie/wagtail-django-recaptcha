@@ -48,24 +48,41 @@ testing = [
 ]
 docs = []
 
-[tool.flake8]
-exclude = [
-    ".git",
-    ".githooks",
-    "__pycache__",
-    "docs",
-    "migrations"
-]
-max-line-length = 119
+[tool.ruff]
+target-version = "py39"  # minimum target version
 
-[tool.isort]
-line_length = 119
-multi_line_output = 3
-include_trailing_comma = true
-add_imports = [
-    "from __future__ import absolute_import",
-    "from __future__ import unicode_literals"
+[tool.ruff.lint]
+extend-select = [
+    "B",    # flake8-bugbear
+    "BLE",  # flake8-blind-except
+    "C4",   # flake8-comprehensions
+    "DJ",   # flake8-django
+    "E",    # pycodestyle errors
+    "F",    # pyflakes
+    "I",    # isort
+    "INT",  # flake8-gettext
+    "PIE",  # flake8-pie
+    "PGH",  # pygrep-hooks
+    "S",    # flake8-bandit
+    "SIM",  # flake8-simplify
+    "T20",  # flake8-print
+    "W",    # pycodestyle warnings
+    "YTT",  # flake8-2020
+    "UP",   # pyupgrade
+    "RUF100",  # unused noqa
 ]
-skip = [
-    "migrations"
+
+extend-ignore = [
+    "E501",  # no line length errors
 ]
+fixable = ["C4", "E", "F", "I", "UP"]
+
+[tool.ruff.lint.isort.sections]
+"django" = ["django"]
+"wagtail" = ["wagtail", "modelcluster"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["wagtailcaptcha"]
+section-order = ["future", "standard-library", "django", "wagtail", "third-party", "first-party", "local-folder"]
+force-sort-within-sections = true
+lines-after-imports = 2
