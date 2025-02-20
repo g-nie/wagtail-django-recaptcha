@@ -9,8 +9,8 @@ dist/
 *.pot
 *.sqlite3
 tests/testapp/var/media/
-.coverage
-coverage
+.coverage*
+coverage*
 htmlcov/
 venv/
 .tox/
