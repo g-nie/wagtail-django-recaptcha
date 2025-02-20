@@ -2,11 +2,11 @@
 
 ## Python/Django/Wagtail support
 
-Python versions as defined in `setup.py` classifiers.
+Python versions as defined in `pyproject.toml` classifiers.
 
 Django versions as [supported](https://www.djangoproject.com/download/#supported-versions) by the Django Project.
 
-Wagtail versions as [supported](http://docs.wagtail.io/en/latest/releases/upgrading.html) by Wagtail (LTS, current and current-1).
+Wagtail versions as [supported](http://docs.wagtail.org/en/latest/releases/upgrading.html) by Wagtail (LTS, current and current-1).
 
 Django/Wagtail combinations as [supported](http://docs.wagtail.io/en/latest/releases/upgrading.html#compatible-django-python-versions) by Wagtail.
 
