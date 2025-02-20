@@ -3,7 +3,6 @@
 [![PyPI](https://img.shields.io/pypi/v/wagtail-django-recaptcha.svg)](https://pypi.org/project/wagtail-django-recaptcha/)
 [![PyPI downloads](https://img.shields.io/pypi/dm/wagtail-django-recaptcha.svg)](https://pypi.org/project/wagtail-django-recaptcha/)
 [![Build Status](https://github.com/wagtail-nest/wagtail-django-recaptcha/actions/workflows/test.yml/badge.svg)](https://github.com/wagtail-nest/wagtail-django-recaptcha/actions/workflows/test.yml)
-[![CodeClimate](https://codeclimate.com/github/wagtail-nest/wagtail-django-recaptcha/badges/gpa.svg)](https://codeclimate.com/github/wagtail-nest/wagtail-django-recaptcha)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://opensource.org/licenses/MIT)
 
 > Wagtail forms with a ReCaptcha form field/widget integration app.
