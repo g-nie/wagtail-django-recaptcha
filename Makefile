@@ -18,6 +18,9 @@ lint: ## Lint the project.
 test: ## Test the project.
 	python ./runtests.py
 
+test-future: ## Test against trunk versions of dependencies to check for future compatibility.
+	tox -e future
+
 test-coverage: ## Run the tests while generating test coverage data.
 	coverage run ./runtests.py && coverage report && coverage html
 
