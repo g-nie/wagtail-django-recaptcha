@@ -1,5 +1,5 @@
 from django.conf import settings
-from django.urls import include, re_path
+from django.urls import include, path
 
 from wagtail import urls as wagtail_urls
 from wagtail.admin import urls as wagtailadmin_urls
@@ -8,10 +8,10 @@ from wagtail.images import urls as wagtailimages_urls
 
 
 urlpatterns = [
-    re_path(r"^admin/", include(wagtailadmin_urls)),
-    re_path(r"^documents/", include(wagtaildocs_urls)),
-    re_path(r"^images/", include(wagtailimages_urls)),
-    re_path(r"", include(wagtail_urls)),
+    path("admin/", include(wagtailadmin_urls)),
+    path("documents/", include(wagtaildocs_urls)),
+    path("images/", include(wagtailimages_urls)),
+    path("", include(wagtail_urls)),
 ]
 
 
